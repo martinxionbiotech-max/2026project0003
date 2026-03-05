@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dental Implant Cost Calculator 2026 | US, Canada, Australia, UK</title>
+  <meta name="description" content="Estimate dental implant costs in USD across the US, Canada, Australia, and the UK. Compare implant surgery, abutment, crown, bone graft, sinus lift, sedation, and other optional costs." />
+  <meta name="keywords" content="dental implant cost calculator,implant cost by country,US dental implant cost,Canada dental implant cost,Australia dental implant cost,UK dental implant cost" />
+  <meta name="robots" content="index,follow" />
+  <meta name="author" content="2026project0003" />
+  <link rel="canonical" href="https://example.com/" />
+
+  <meta property="og:title" content="Dental Implant Cost Calculator (US/CA/AU/UK)" />
+  <meta property="og:description" content="Compare estimated dental implant costs by country with USD-only output and detailed treatment options." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://example.com/" />
+  <meta name="twitter:card" content="summary" />
+
+  <style>
+    :root {
+      --bg: #f2f7fc;
+      --card: #fff;
+      --text: #1a2b3b;
+      --muted: #546577;
+      --primary: #1460b6;
+      --border: #d9e5f2;
+      --ok: #0d7a44;
+      --warn: #956200;
+      --focus: #7db7ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.58;
+    }
+    .container {
+      width: min(1120px, 92vw);
+      margin: 24px auto 40px;
+    }
+    .hero {
+      background: linear-gradient(130deg, #eaf4ff, #fbfdff);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 14px;
+    }
+    h1, h2, h3 { line-height: 1.25; }
+    h1 { font-size: clamp(1.4rem, 2.6vw, 2rem); margin: 0; }
+    .hero p { margin: 8px 0 0; color: var(--muted); }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 14px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      margin-bottom: 12px;
+    }
+    .inline {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+    .field { margin: 8px 0; }
+    label {
+      display: inline-block;
+      margin-bottom: 6px;
+      font-weight: 650;
+      font-size: .95rem;
+    }
+    input, select {
+      width: 100%;
+      border: 1px solid #c6d7e8;
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: .95rem;
+      background: #fff;
+    }
+    input:focus, select:focus, button:focus {
+      outline: 2px solid var(--focus);
+      outline-offset: 2px;
+    }
+    .options {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px 14px;
+      margin-top: 6px;
+    }
+    .checkbox {
+      display: flex;
+      gap: 8px;
+      align-items: flex-start;
+      font-size: .93rem;
+      color: #2a3f52;
+    }
+    .checkbox input { margin-top: 4px; width: 16px; }
+    button {
+      border: none;
+      border-radius: 10px;
+      background: var(--primary);
+      color: #fff;
+      font-weight: 650;
+      padding: 10px 14px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+    .result {
+      background: #f6fbff;
+      border: 1px dashed #b4d4f3;
+      border-radius: 12px;
+      padding: 12px;
+    }
+    .pill {
+      display: inline-block;
+      border: 1px solid #b7e3c6;
+      color: var(--ok);
+      background: #ebf8ef;
+      border-radius: 999px;
+      font-size: .8rem;
+      padding: 2px 8px;
+      margin-right: 6px;
+    }
+    .price {
+      font-size: clamp(1.45rem, 2.9vw, 2.1rem);
+      color: #0c5aa0;
+      font-weight: 720;
+      margin: 6px 0;
+    }
+    .muted { color: var(--muted); font-size: .9rem; }
+    .warn { color: var(--warn); font-size: .9rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .92rem;
+    }
+    th, td {
+      border-bottom: 1px solid var(--border);
+      text-align: left;
+      vertical-align: top;
+      padding: 8px 6px;
+    }
+    code {
+      background: #f0f6ff;
+      border: 1px solid #d7e6f8;
+      border-radius: 6px;
+      padding: 2px 6px;
+    }
+    @media (max-width: 920px) {
+      .layout { grid-template-columns: 1fr; }
+      .inline, .options { grid-template-columns: 1fr; }
+    }
+  </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Dental Implant Cost Calculator",
+    "description": "Estimate dental implant costs in USD for US, Canada, Australia, and UK.",
+    "inLanguage": "en",
+    "mainEntity": {
+      "@type": "SoftwareApplication",
+      "name": "Dental Implant Cost Calculator",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "Any"
+    }
+  }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <header class="hero">
+      <h1>Dental Implant Cost Calculator (US / Canada / Australia / UK)</h1>
+      <p>Estimate and compare dental implant treatment budgets by country with all results normalized to <strong>USD</strong>.</p>
+      <p>SEO focus: dental implant cost calculator, implant cost by country, bone graft cost, sinus lift cost, implant crown cost.</p>
+    </header>
+
+    <main class="layout">
+      <section>
+        <article class="card">
+          <h2>1) Inputs: Country and Treatment Scope</h2>
+          <div class="inline">
+            <div class="field">
+              <label for="country">Country</label>
+              <select id="country" aria-label="Country">
+                <option value="US">United States (US)</option>
+                <option value="CA">Canada (CA)</option>
+                <option value="AU">Australia (AU)</option>
+                <option value="UK">United Kingdom (UK)</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="units">Implant Units</label>
+              <input id="units" type="number" min="1" max="14" value="1" />
+            </div>
+          </div>
+
+          <div class="inline">
+            <div class="field">
+              <label for="crown">Crown Type (per implant)</label>
+              <select id="crown">
+                <option value="pfm">PFM Crown (standard)</option>
+                <option value="zirconia">Zirconia Crown (premium)</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="complexity">Surgical Complexity</label>
+              <select id="complexity">
+                <option value="1">Regular (1.00x)</option>
+                <option value="1.15">Moderate (1.15x)</option>
+                <option value="1.35">Complex (1.35x)</option>
+              </select>
+            </div>
+          </div>
+
+          <h3>2) Optional Cost Items (broad coverage)</h3>
+          <div class="options">
+            <label class="checkbox"><input type="checkbox" id="opt-consult" checked />Consultation and treatment planning</label>
+            <label class="checkbox"><input type="checkbox" id="opt-imaging" checked />Imaging (X-ray / CBCT)</label>
+            <label class="checkbox"><input type="checkbox" id="opt-extraction" />Tooth extraction (per tooth)</label>
+            <label class="checkbox"><input type="checkbox" id="opt-graft" />Bone graft (per site)</label>
+            <label class="checkbox"><input type="checkbox" id="opt-sinus" />Sinus lift</label>
+            <label class="checkbox"><input type="checkbox" id="opt-sedation" />IV sedation upgrade</label>
+            <label class="checkbox"><input type="checkbox" id="opt-temp" />Temporary prosthesis</label>
+            <label class="checkbox"><input type="checkbox" id="opt-guide" checked />Surgical guide (digital planning)</label>
+            <label class="checkbox"><input type="checkbox" id="opt-lab" checked />Lab premium</label>
+            <label class="checkbox"><input type="checkbox" id="opt-follow" checked />Follow-up and maintenance visits</label>
+          </div>
+
+          <button id="btn-calc" type="button">Calculate Cost (USD)</button>
+        </article>
+
+        <article class="card">
+          <h2>3) Calculation Methodology</h2>
+          <ul>
+            <li>Each country uses a modeled median cost profile for implant, abutment, crown, and common add-on procedures.</li>
+            <li>Core formula: <code>(Implant + Abutment + Crown) × Units × Complexity</code>.</li>
+            <li>Optional items are added as either one-time charges or per-unit charges.</li>
+            <li>The output shows a median estimate and an uncertainty band of <strong>±15%</strong>.</li>
+            <li>All outputs are USD only (not real-time FX, and not insurance-adjusted).</li>
+          </ul>
+          <p class="muted">Formula summary: <code>Total = Core + Optional</code>, then <code>Range = Total × [0.85, 1.15]</code>.</p>
+        </article>
+      </section>
+
+      <aside>
+        <article class="card">
+          <h2>Estimated Result (USD)</h2>
+          <div class="result">
+            <span class="pill" id="out-country">US</span>
+            <span class="pill" id="out-units">1 implant</span>
+            <p class="price" id="out-total">$0</p>
+            <p id="out-range">Range: $0 - $0</p>
+            <p class="muted" id="out-breakdown">Core + Optional breakdown</p>
+          </div>
+          <p class="warn">Note: Full-arch plans (All-on-4 / All-on-6) may include additional surgical and prosthetic costs beyond this baseline model.</p>
+        </article>
+
+        <article class="card">
+          <h2>Country Reference Ranges (USD)</h2>
+          <table>
+            <thead>
+              <tr><th>Country</th><th>Typical single implant package</th><th>Model median</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>US</td><td>$3,000 - $6,000</td><td>$4,500</td></tr>
+              <tr><td>CA</td><td>$2,800 - $5,500</td><td>$4,100</td></tr>
+              <tr><td>AU</td><td>$3,000 - $6,500</td><td>$4,700</td></tr>
+              <tr><td>UK</td><td>$2,500 - $5,500</td><td>$3,900</td></tr>
+            </tbody>
+          </table>
+        </article>
+      </aside>
+    </main>
+
+    <section class="card">
+      <h2>Sources (public references used for modeling)</h2>
+      <ol>
+        <li>American Academy of Implant Dentistry (AAID): US implant cost references.</li>
+        <li>Healthline: patient-oriented implant cost ranges and treatment overview.</li>
+        <li>Authority Dental: comparative implant pricing discussions.</li>
+        <li>Bupa Dental UK: UK private dental implant pricing examples.</li>
+        <li>NIB and Australian clinic public pages: Australia treatment and fee examples.</li>
+        <li>Canadian private clinics and regional market pages: public fee examples.</li>
+      </ol>
+      <p class="muted">Last updated: 2026-03. Different sources use different inclusions (with/without crown, imaging, follow-ups). This page normalizes assumptions for budgeting.</p>
+    </section>
+
+    <section class="card">
+      <h2>Disclaimer (Medical + Financial)</h2>
+      <ul>
+        <li>This calculator is for education and budget planning only. It is not medical advice.</li>
+        <li>Actual pricing depends on bone quality, anatomy, clinician experience, city cost level, implant system, and combined procedures.</li>
+        <li>Insurance, government support, discount plans, and financing can materially change out-of-pocket cost.</li>
+        <li>Always rely on a formal written quote after in-person examination and imaging.</li>
+      </ul>
+    </section>
+  </div>
+
+  <script>
+    const countryPricing = {
+      US: {
+        implant: 2400, abutment: 650, crown: { pfm: 1450, zirconia: 1750 },
+        consult: 220, imaging: 380, extraction: 320, graft: 780, sinus: 2500,
+        sedation: 650, temp: 520, guide: 320, lab: 280, follow: 260
+      },
+      CA: {
+        implant: 2200, abutment: 600, crown: { pfm: 1300, zirconia: 1600 },
+        consult: 180, imaging: 320, extraction: 280, graft: 700, sinus: 2100,
+        sedation: 580, temp: 460, guide: 280, lab: 250, follow: 220
+      },
+      AU: {
+        implant: 2550, abutment: 680, crown: { pfm: 1470, zirconia: 1820 },
+        consult: 200, imaging: 360, extraction: 300, graft: 760, sinus: 2300,
+        sedation: 620, temp: 500, guide: 300, lab: 270, follow: 240
+      },
+      UK: {
+        implant: 2050, abutment: 580, crown: { pfm: 1270, zirconia: 1520 },
+        consult: 170, imaging: 300, extraction: 260, graft: 650, sinus: 1900,
+        sedation: 560, temp: 430, guide: 260, lab: 240, follow: 210
+      }
+    };
+
+    const optionMap = [
+      ["opt-consult", "consult", "single"],
+      ["opt-imaging", "imaging", "single"],
+      ["opt-extraction", "extraction", "perUnit"],
+      ["opt-graft", "graft", "perUnit"],
+      ["opt-sinus", "sinus", "single"],
+      ["opt-sedation", "sedation", "single"],
+      ["opt-temp", "temp", "single"],
+      ["opt-guide", "guide", "single"],
+      ["opt-lab", "lab", "single"],
+      ["opt-follow", "follow", "single"]
+    ];
+
+    function usd(value) {
+      return `$${Math.round(value).toLocaleString("en-US")}`;
+    }
+
+    function calculate() {
+      const country = document.getElementById("country").value;
+      const unitsInput = Number(document.getElementById("units").value);
+      const units = Math.max(1, Math.min(14, Number.isFinite(unitsInput) ? unitsInput : 1));
+      const crown = document.getElementById("crown").value;
+      const complexity = Number(document.getElementById("complexity").value);
+      const p = countryPricing[country];
+
+      const core = (p.implant + p.abutment + p.crown[crown]) * units * complexity;
+
+      let optional = 0;
+      for (const [checkboxId, priceKey, mode] of optionMap) {
+        if (!document.getElementById(checkboxId).checked) continue;
+        optional += mode === "perUnit" ? p[priceKey] * units : p[priceKey];
+      }
+
+      const total = core + optional;
+      const low = total * 0.85;
+      const high = total * 1.15;
+
+      document.getElementById("out-country").textContent = country;
+      document.getElementById("out-units").textContent = `${units} implant${units > 1 ? "s" : ""}`;
+      document.getElementById("out-total").textContent = usd(total);
+      document.getElementById("out-range").textContent = `Range: ${usd(low)} - ${usd(high)}`;
+      document.getElementById("out-breakdown").textContent = `Core ${usd(core)} + Optional ${usd(optional)} = ${usd(total)}`;
+    }
+
+    document.getElementById("btn-calc").addEventListener("click", calculate);
+    document.getElementById("country").addEventListener("change", calculate);
+    document.getElementById("units").addEventListener("input", calculate);
+    document.getElementById("crown").addEventListener("change", calculate);
+    document.getElementById("complexity").addEventListener("change", calculate);
+
+    for (const [checkboxId] of optionMap) {
+      document.getElementById(checkboxId).addEventListener("change", calculate);
+    }
+
+    calculate();
+  </script>
+</body>
+</html>
