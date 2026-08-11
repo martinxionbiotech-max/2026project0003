@@ -1,0 +1,9 @@
+# Dental Implant Cost Calculator
+> Free dental implant cost comparison tool covering US, Canada, Australia, and UK with bone graft, sinus lift, and crown pricing.
+## Pages
+- [Home](https://rapidtestor.com/): Dental Implant Cost Calculator – compare implant treatment costs by country
+## Statistics
+- 1 page, interactive dental cost calculator tool
+## Schema Types
+- WebApplication
+- FAQPage
